@@ -1,2 +1,2 @@
 # mkosh11.github.io
-my portfolio website. a hub to link dev projects and showcase images of visual projects
+Welcome to the source code of my development website! Currently, I'm still developing the bare bones, so it doens't look great yet, but it will be! Check back for future revisions
