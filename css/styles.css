@@ -124,3 +124,9 @@ footer a{
 h3{
 	margin-bottom: 10px;
 }
+a{
+	color:#170A1C;
+}
+a:hover{
+	color:#9C95DC;
+}
