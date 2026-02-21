@@ -1,6 +1,8 @@
 body{
-	background-color: #FEECEC;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-image: url(../images/crinkle_paper_bg.jpeg);
+	font-family: "gotham", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	scroll-behavior: smooth;
 }
 .container {
@@ -35,16 +37,17 @@ h1{
 }
 header{
 	width:100%;
-	height:65px;
-	background-color: #0B7189;
+	height:148px;
+	background-image: url(../images/torn-paper-header.webp);
 	display:flex;
-	align-items: center;
 	position: fixed;
 }
-header h1{
-	font-size: 32px;
-	color:#170A1C;
-	margin-bottom: 0px;
+header .logo{
+	background-image: url(../images/logo-full-color.svg);
+	width:238px;
+	height: 77px;
+	margin-top: 10px;
+
 }
 header nav a{
 	font-size: 18px;
@@ -52,6 +55,8 @@ header nav a{
 }
 header nav{
 	margin-left: auto;
+	margin-top: 30px;
+	height: fit-content;
 }
 nav a:nth-of-type(3n){
 	margin-right:0px;
@@ -65,11 +70,24 @@ li h3{
 	margin-bottom: 30px;
 	text-align: right;
 }
-.splash{
-	height: 584px;
-	background-color: #9C95DC;
-	display: flex;
-	align-items: center;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+svg{
+	margin-top: 232px;
+	margin-bottom: 84px;
+	margin-left: auto;
+	width: 729px;
+	height: 314px;
+}
+.center{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .right{
 	margin-left: auto;
@@ -100,7 +118,7 @@ li h3{
 	align-items: center;
 }
 footer{
-	background-color: #0B7189;
+	/* background-color: #0B7189; */
 	height: 224px;
 	font-size:24px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
