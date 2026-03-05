@@ -1,10 +1,18 @@
+@font-face {
+    font-family: 'lucida-bright';
+    src: url('../fonts/lucida-bright.woff2') format('woff2'),
+         url('../fonts/lucida-bright.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
 body{
 	background-image: url(../images/crinkle_paper_bg.jpeg);
 	font-family: "gotham", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	scroll-behavior: smooth;
-	color: #0A211F;
+	color: #325e5b;
 }
 .container {
 	width: 978px;
@@ -17,20 +25,18 @@ body{
 .block{
 	display:block;
 }
-.white{
-	color:#FEECEC;
+.desc1{
+	font-family: 'Lucida Bridge', Georgia, 'Times New Roman', Times, serif;
 }
-.purple{
-	color:#9C95DC;
+.desc2{
+	font-family: 'dico-code-two', mono;
+	font-weight: 400;
+	font-style: normal;
 }
-.sage{
-	color:#ACAD94;
-}
-.blue{
-	color:#0B7189;
-}
-.darkpurple{
-	color:#170A1C;
+.desc3{
+	font-family: 'segoe-script', sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 h1{
 	font-size: 82px;
@@ -43,6 +49,7 @@ header{
 	background-image: url(../images/torn-paper-header.webp);
 	display:flex;
 	position: fixed;
+	z-index: 5;
 }
 header .logo{
 	background-image: url(../images/logo-full-color.svg);
@@ -65,12 +72,22 @@ nav a:nth-of-type(3n){
 }
 h2{
 	font-size: 48px;
+	font-weight: bold;
 	margin-bottom: 30px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #325e5b;
+	color:rgba(0,0,0,0)
 }
-li h3{
+h3{
 	font-size: 24px;
 	margin-bottom: 30px;
-	text-align: right;
+	text-align: center;
+	flex:1;
+
+}
+h4{
+	font-size:16px;
+	margin-bottom: 20px;
 }
 .visually-hidden {
   position: absolute;
@@ -79,12 +96,26 @@ li h3{
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
-svg{
+.hero{
 	margin-top: 232px;
 	margin-bottom: 84px;
-	margin-left: auto;
-	width: 729px;
-	height: 314px;
+	width: 100%;
+	height: 314px; 
+	align-items: center;
+}
+.hero .cls-1{
+	fill: #325e5b;
+}
+.pointer{
+	position:absolute;
+	top: -45px;
+	right: 510px;
+	width: 217px;
+	height: 219px;
+
+}
+.ux-pointer{
+	position: relative;
 }
 .center{
 	text-align: center;
@@ -98,7 +129,7 @@ svg{
 	width:222px;
 	height: 54px;
 	background-color: #170A1C;
-	color:#0B7189;
+	color:#325e5b;
 	font-size: 24px;
 	text-align: center;
 	align-self: center;
@@ -113,6 +144,7 @@ svg{
 	font-size:18px;
 	width:558px;
 	margin-bottom: 30px;
+	color:#170A1C;
 }
 .about{
 	display: flex;
@@ -147,19 +179,24 @@ footer a{
 	width: 475px;
 
 }
+footer{
+	color:#170A1C
+}
 footer h3{
 	font-size: 25px;
 	font-weight: bold;
+	text-align: left;
 }
 footer h4{
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	font-size: 16px;
 }
 a{
-	color:#170A1C;
+	color:#0a211f;
+	margin-top: 10px;
 }
 a:hover{
-	color:#9C95DC;
+	color: #6c23f7;
 }
 .github{
 	background-image: url(../images/github-icon.svg);
@@ -185,3 +222,49 @@ a:hover{
 	height:36px;
 	background-size: contain;
 }
+
+.esqimg{
+	background-image: url("../images/RunningPoster_V4_Alex.png");
+	width:474px;
+	height:275px;
+	background-size: cover;
+	color: rgba(0,0,0,0);
+}
+.kintsugiimg{
+	background-image: url("../images/Kintsugi-Screenshot.webp");
+	width:474px;
+	height:275px;
+	background-size: cover;
+	color: rgba(0,0,0,0);
+}
+.popartimg{
+	background-image: url("../images/Pop-Art-AD.webp");
+	width:474px;
+	height:275px;
+	background-size: cover;
+	color: rgba(0,0,0,0);
+}
+.sisimg{
+	background-image: url("../images/SIS-UX.webp");
+	width:474px;
+	height:220px;
+	background-size: cover;
+	color: rgba(0,0,0,0);
+}
+.projectstext{
+	margin-top: 232px;
+	margin-bottom: 84px;
+	width: 100%;
+	height: 104px; 
+	align-items: center;
+}
+.resumetext{
+	margin-top: 232px;
+	margin-bottom: 84px;
+	width: 100%;
+	height: 110px; 
+	align-items: center;
+}
+/* .resumetext .cls-1{
+	fill: #325e5b;
+} */
