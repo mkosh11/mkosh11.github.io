@@ -89,6 +89,11 @@ h4{
 	font-size:16px;
 	margin-bottom: 20px;
 }
+em{
+	font-weight: 700;
+	color: #325e5b
+
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -175,6 +180,9 @@ footer a{
 	padding-top:84px;
 
 }
+.left{
+	margin-right:30px;
+}
 .project p{
 	width: 475px;
 
@@ -249,6 +257,14 @@ a:hover{
 	width:474px;
 	height:220px;
 	background-size: cover;
+	color: rgba(0,0,0,0);
+}
+.cafeimg{
+	background-image: url("../images/cafe-ux-ui.png");
+	width:474px;
+	height:275px;
+	background-size: cover;
+	background-position: center;
 	color: rgba(0,0,0,0);
 }
 .projectstext{
