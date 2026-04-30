@@ -178,6 +178,7 @@ footer a{
 .project{
 	height: 558px;
 	padding-top:84px;
+	/* box-sizing: border-box; */
 
 }
 .left{
@@ -230,42 +231,56 @@ a:hover{
 	height:36px;
 	background-size: contain;
 }
-
-.esqimg{
-	background-image: url("../images/RunningPoster_V4_Alex.png");
-	width:474px;
-	height:275px;
-	background-size: cover;
-	color: rgba(0,0,0,0);
-}
-.kintsugiimg{
-	background-image: url("../images/Kintsugi-Screenshot.webp");
-	width:474px;
-	height:275px;
-	background-size: cover;
-	color: rgba(0,0,0,0);
-}
-.popartimg{
-	background-image: url("../images/Pop-Art-AD.webp");
-	width:474px;
-	height:275px;
-	background-size: cover;
-	color: rgba(0,0,0,0);
-}
-.sisimg{
-	background-image: url("../images/SIS-UX.webp");
-	width:474px;
-	height:220px;
-	background-size: cover;
-	color: rgba(0,0,0,0);
-}
-.cafeimg{
-	background-image: url("../images/cafe-ux-ui.png");
+.projimg{
 	width:474px;
 	height:275px;
 	background-size: cover;
 	background-position: center;
 	color: rgba(0,0,0,0);
+}
+.projimg:hover{
+	color:#f5f5f5;
+	box-sizing: border-box;
+	padding: 30px;
+	text-align: center;
+	display:flex
+}
+.esqimg{
+	background-image: url("../images/RunningPoster_V4_Alex.png");
+}
+.esqimg:hover{
+	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/RunningPoster_V4_Alex.png");
+}
+.kintsugiimg{
+	background-image: url("../images/Kintsugi-Screenshot.webp");
+}
+.kintsugiimg:hover{
+	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/Kintsugi-Screenshot.webp");
+}
+.popartimg{
+	background-image: url("../images/Pop-Art-AD.webp");
+}
+.popartimg:hover{
+	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/Pop-Art-AD.webp");
+}
+.sisimg{
+	background-image: url("../images/SIS-UX.webp");
+}
+.sisimg:hover{
+	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/SIS-UX.webp");
+}
+.cafeimg{
+	background-image: url("../images/cafe-ux-ui.png");
+}
+.cafeimg:hover{
+	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/cafe-ux-ui.png");
+}
+.tenprinciplesimg{
+	background-image: url("../images/ten-principles.webp");
+	height:210px;
+}
+.tenprinciplesimg:hover{
+	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/ten-principles.webp");
 }
 .projectstext{
 	margin-top: 232px;
@@ -281,6 +296,35 @@ a:hover{
 	height: 110px; 
 	align-items: center;
 }
-/* .resumetext .cls-1{
-	fill: #325e5b;
-} */
+.bdprecruit{
+	width: 306px;
+	height: 473px;
+	background-image: url("../images/BDPRECRUITMENT_POSTER_FA25.webp") ;
+	background-size: cover;
+}
+.typeposter{
+	width:306px;
+	height:191px;
+	background-image: url("../images/TypePoster.webp") ;
+	background-size: cover;
+}
+.candesign{
+	width: 306px;
+	height: 173px;
+	margin-top: 30px;
+	background-image: url("../images/can-design.webp") ;
+	background-size: cover;
+}
+.kintsugiwire{
+	width: 306px;
+	height: 505px;
+	background-image: url("../images/kintsugi-wf.webp") ;
+	background-size: cover;
+}
+.third{
+	width: 306px;
+	margin-top: 10px;
+}
+.marginleft{
+	margin-left: 30px;
+}
