@@ -259,6 +259,7 @@ a:hover{
 }
 .popartimg{
 	background-image: url("../images/Pop-Art-AD.webp");
+	height:255px;
 }
 .popartimg:hover{
 	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/Pop-Art-AD.webp");
@@ -271,6 +272,7 @@ a:hover{
 }
 .cafeimg{
 	background-image: url("../images/cafe-ux-ui.png");
+	height:255px;
 }
 .cafeimg:hover{
 	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/cafe-ux-ui.png");
@@ -281,6 +283,12 @@ a:hover{
 }
 .tenprinciplesimg:hover{
 	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url("../images/ten-principles.webp");
+}
+.compostimg{
+	background-image: url(../images/compostable.png);
+}
+.compostimg:hover{
+	background-image: linear-gradient(rgba(26,78,96,0.7), rgba(26,78,96,0.7)), url(../images/compostable.png);
 }
 .projectstext{
 	margin-top: 232px;
