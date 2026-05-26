@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'lucida-bright';
     src: url('../fonts/lucida-bright.woff2') format('woff2'),
@@ -44,8 +45,9 @@ h1{
 }
 header{
 	width:100%;
-	height:148px;
+	height:168px;
 	background-size: cover;
+	background-position: bottom;
 	background-image: url(../images/torn-paper-header.webp);
 	display:flex;
 	position: fixed;
